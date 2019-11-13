@@ -5,4 +5,4 @@ RUN apk add --no-cache py-pip python-dev libffi-dev openssl-dev gcc libc-dev mak
 
 WORKDIR /root
 
-ENTRYPOINT ['sh']
+ENTRYPOINT ['ash']
